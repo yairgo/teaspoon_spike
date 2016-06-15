@@ -8,3 +8,8 @@ This app is an example app for an [issue with sprockets](https://github.com/rail
 - Enable sprockets in config/application.rb
 - Add teaspoon and wekbit
 - install teaspoon ```rails generate teaspoon:install --no-coffee```
+
+
+## Instructions
+
+- Start your server and navigate to localhost:3000/teaspoon
