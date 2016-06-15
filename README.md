@@ -1,6 +1,10 @@
 This app is an example app for an [issue with sprockets](https://github.com/rails/sprockets/issues/183).
 
-## Instructions
+## Setup Instructions
 
-- rails new teaspoon_spike -O -S -T --skip-turbolinks --skip-spring
+- ```rails new teaspoon_spike -O -S -T --skip-turbolinks --skip-spring```
 - Remove `coffee-rails` from Gemfile. bundle install
+- Add welcome controller and view
+- Enable sprockets in config/application.rb
+- Add teaspoon and wekbit
+- install teaspoon ```rails generate teaspoon:install --no-coffee```
