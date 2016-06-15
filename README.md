@@ -8,10 +8,12 @@ This app is an example app for an [issue with teaspoon](https://github.com/modes
 - bundle open teaspoon-jasmine
 - edit file: lib/teaspoon-jasmine/assets/teaspoon-jasmine2.js
 - under line 1298 insert:
+
   ```javascript
   cleanupCount = 0;
   ```
   under line 1315 insert:
+
   ```javascript
   cleanupCount++;
   console.log('cleanup: ', cleanupCount);
